@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container {
+    /* border: 2px solid black; */
+    background-color: #1b1a28;
+    width: 35vw;
+    height: 65vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 10px #8b89af;
+}
+
+div {
+    /* border: 1px solid red; */
+    width: 93%;
+    height: 11%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    height: 100%;
+    width: 28.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #65268f;
+    color: white;
+    box-shadow: 0 5px #411161;
+}
+
+input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 89%;
+    display: flex;
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: inset 5px 10px 10px 5px rgb(150, 123, 123);
+}
+
+::placeholder {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.cancel,.equal{
+    background-color: #fc0067;
+    box-shadow: 0 5px #97174c;
+}
+.operator{
+    width: 10%;
+}
